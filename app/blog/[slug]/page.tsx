@@ -46,16 +46,16 @@ export default async function SlugPage({
           </div>
 
           <div>
-            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
               {data.title}
             </h1>
           </div>
         </div>
       </header>
 
-      <div className="divide-y divide-gray-200 pb-7 dark:divide-gray-700 xl:divide-y-0">
+      <div className="divide-y divide-gray-200 pb-7 dark:divide-gray-300 xl:divide-y-0">
         <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-          <div className="prose max-w-none pb-8 pt-10 dark:prose-invert prose-lg">
+          <div className="prose max-w-none pb-8 pt-10 dark:prose-invert prose-lg text-gray-900 dark:text-gray-50">
             <PortableText value={data.content} components={PortableTextComponent}/>
           </div>
         </div>

@@ -16,8 +16,8 @@ export default async function IndexPage() {
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-        <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          All Posts
+        <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          Blog
         </h1>
       </div>
 
@@ -36,12 +36,12 @@ export default async function IndexPage() {
               className="space-y-3 xl:col-span-3"
             >
               <div>
-                <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+                <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-50">
                   {post.title}
                 </h3>
               </div>
 
-            <p className="prase max-w-none text-gray-500 dark:text-gray-400 line-clamp-2">
+            <p className="prase max-w-none text-gray-500 dark:text-gray-300 line-clamp-2">
               {post.overview}
             </p>
             </Link>
